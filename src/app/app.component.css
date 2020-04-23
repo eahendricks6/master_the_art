@@ -1,0 +1,13 @@
+/** No CSS for this example */
+.banner {
+    max-width: 100%;
+    margin: 0px auto;
+    background-color: #cc00ff29;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 0.1875em;
+    font-size: 50px;
+    /*padding: 0 1em;*/
+  }
+.menu{
+    background-color:rgba(255, 255, 128, .5);
+}

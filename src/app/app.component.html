@@ -1,0 +1,16 @@
+<div class="menu">
+  <button (click)="route(['/home'])" mat-button>Home</button>
+  <button mat-button [matMenuTriggerFor]="classes">Classes</button>
+  <mat-menu #classes="matMenu">
+    <button mat-menu-item>Class Schedule</button>
+    <button mat-menu-item>Class Registration</button>
+  </mat-menu>
+</div>
+<div class="banner">
+        Welcome to Master the Art of Sewing!
+</div>
+<router-outlet></router-outlet>
+
+<!-- Copyright 2019 Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license -->
