@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/mastert6/public_html/dir
-    - /bin/cp -R src $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
